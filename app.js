@@ -1,9 +1,9 @@
 
 
 
-document.querySelector("body").addEventListener("mousemove", steve);
+document.querySelector("body").addEventListener("mousemove", naz);
 
-function steve(e) {
+function naz(e) {
   document.querySelector(".container1").style.backgroundColor = `rgb(${
     e.screenX % 255
   }, ${e.screenY % 255}, ${(e.screenX + e.screenY) % 255})`;
